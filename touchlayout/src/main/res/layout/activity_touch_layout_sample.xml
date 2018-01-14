@@ -18,22 +18,28 @@
   ~ the License.
   -->
 
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-			 package="com.dimowner.androidfeatures">
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
 
-	<application
-			android:allowBackup="true"
-			android:icon="@mipmap/ic_launcher"
-			android:label="@string/app_name"
-			android:supportsRtl="true"
-			android:theme="@style/AppTheme">
-		<activity android:name=".MainActivity">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN"/>
+	<com.dimowner.touchlayout.TouchLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#FF4081"
+			>
 
-				<category android:name="android.intent.category.LAUNCHER"/>
-			</intent-filter>
-		</activity>
-	</application>
+		<TextView
+				android:id="@+id/zoom_view"
+				android:layout_width="200dp"
+				android:layout_height="200dp"
+				android:layout_gravity="center"
+				android:background="#303F9F"
+				android:text="TouchLayout"
+				android:gravity="center"
+				android:textColor="#fff"
+				/>
 
-</manifest>
+	</com.dimowner.touchlayout.TouchLayout>
+</LinearLayout>

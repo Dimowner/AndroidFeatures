@@ -2,6 +2,9 @@
 
 <p>Repository combine ineresting android features, samples, usecases. One feature per module</p>
 
+###Features:
+ - TouchLayout custom layout wich allows move/scale child view and return it back with SpringAnimation.
+
 ### License
 
 ```
