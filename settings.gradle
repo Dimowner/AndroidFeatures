@@ -1,1 +1,1 @@
-include ':app', 'touchlayout'
+include ':app', 'touchlayout', 'bottomnavigation'

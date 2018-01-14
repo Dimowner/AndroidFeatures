@@ -1,9 +1,10 @@
 # Android Features application
 
-<p>Repository combine ineresting android features, samples, usecases. One feature per module</p>
+<p>Repository combine interesting android features, samples, usecases. One feature per module</p>
 
-###Features:
+### Features:
  - TouchLayout custom layout wich allows move/scale child view and return it back with SpringAnimation.
+ - BottomNavigationView example
 
 ### License
 
